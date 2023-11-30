@@ -30,7 +30,7 @@ const Nav = () => {
         </div>
       </div>
       <div className=" px-6">
-        <hr className="border-[#43454D] h-1 border-2 py-0" />
+        <hr className="border-[#43454D] border-2 py-0" />
       </div>
     </div>
   );
