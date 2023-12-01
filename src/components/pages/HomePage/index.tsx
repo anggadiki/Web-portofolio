@@ -1,4 +1,5 @@
 import Nav from "@/components/moleculs/Nav";
+import About from "@/components/templates/About";
 import HeroHome from "@/components/templates/Hero/HeroHome";
 
 const HomePage = () => {
@@ -8,6 +9,7 @@ const HomePage = () => {
         <Nav />
         <HeroHome />
       </div>
+      <About />
     </>
   );
 };
