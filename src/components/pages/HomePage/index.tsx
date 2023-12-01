@@ -3,10 +3,12 @@ import HeroHome from "@/components/templates/Hero/HeroHome";
 
 const HomePage = () => {
   return (
-    <div className=" w-full">
-      <Nav />
-      <HeroHome />
-    </div>
+    <>
+      <div className=" w-full bg-[#292F36]">
+        <Nav />
+        <HeroHome />
+      </div>
+    </>
   );
 };
 
