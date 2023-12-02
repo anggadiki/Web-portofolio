@@ -14,8 +14,8 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        ubuntu: ["Ubuntu"],
-        ibm: ["IBM Plex Mono"],
+        ubuntu: ["Ubuntu", "sans-serif"],
+        ibm: ["IBM Plex Mono", "monospace"],
       },
     },
   },

@@ -1,6 +1,6 @@
-import HeroContaint from "@/components/organisme/HeroContaint";
-import DeskripsiContent from "@/components/organisme/HeroContaint/DeskripsiContent";
-import Highlight from "@/components/organisme/HeroContaint/Hightlight";
+import HeroContaint from "@/components/organismes/HeroContaint";
+import DeskripsiContent from "@/components/organismes/HeroContaint/DeskripsiContent";
+import Highlight from "@/components/organismes/HeroContaint/Hightlight";
 
 const HeroHome = () => {
   return (
