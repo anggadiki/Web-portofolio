@@ -1,6 +1,7 @@
 import Nav from "@/components/molecules/Nav";
 import About from "@/components/templates/About";
 import HeroHome from "@/components/templates/Hero/HeroHome";
+import Skills from "@/components/templates/Skills";
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
         <HeroHome />
       </div>
       <About />
+      <Skills />
     </>
   );
 };
