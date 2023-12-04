@@ -13,3 +13,9 @@
   -webkit-box-shadow: -6px -6px 1px 0px rgba(18, 247, 214, 0.66);
   -moz-box-shadow: -6px -6px 1px 0px rgba(18, 247, 214, 0.66);
 }
+
+.skills {
+  box-shadow: -8px 0px 0px 0px rgba(12, 115, 184, 0.75);
+  -webkit-box-shadow: -8px 0px 0px 0px rgba(12, 115, 184, 0.75);
+  -moz-box-shadow: -8px 0px 0px 0px rgba(12, 115, 184, 0.75);
+}
