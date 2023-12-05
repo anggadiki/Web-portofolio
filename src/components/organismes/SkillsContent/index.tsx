@@ -1,17 +1,11 @@
+import Title from "@/components/molecules/Title";
 import Image from "next/image";
 
 const SkillsContent = () => {
   return (
     <div className=" w-full absolute flex justify-center">
       <div className=" py-16">
-        <div className=" flex flex-col items-center w-full font-ubuntu text-[#12F7D6] text-[64px]">
-          <p className=" px-1">Skills</p>
-          <div className=" flex items-center px-28 w-full">
-            <div className=" w-5 h-4 rounded-full bg-[#12F7D6]"></div>
-            <hr className=" border-2 border-[#12F7D6] w-full" />
-            <div className=" w-5 h-4 rounded-full bg-[#12F7D6]"></div>
-          </div>
-        </div>
+        <Title>Skills</Title>
         <div className=" font-ibm text-center px-7 pt-4 text-white">
           <p>I am striving to never stop learning and improving</p>
         </div>
