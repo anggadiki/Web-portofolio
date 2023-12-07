@@ -1,6 +1,7 @@
 import Nav from "@/components/molecules/Nav";
 import About from "@/components/templates/About";
 import Blogs from "@/components/templates/Blogs";
+import Contact from "@/components/templates/Contact";
 import HeroHome from "@/components/templates/Hero/HeroHome";
 import Skills from "@/components/templates/Skills";
 import Works from "@/components/templates/Works";
@@ -16,6 +17,7 @@ const HomePage = () => {
       <Skills />
       <Works />
       <Blogs />
+      <Contact />
     </>
   );
 };
