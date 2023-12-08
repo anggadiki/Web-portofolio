@@ -1,3 +1,4 @@
+import Footer from "@/components/molecules/Footer";
 import Title from "@/components/molecules/Title";
 
 const ContactContent = () => {
@@ -65,6 +66,7 @@ const ContactContent = () => {
             </button>
           </div>
         </form>
+        <Footer />
       </div>
     </div>
   );
