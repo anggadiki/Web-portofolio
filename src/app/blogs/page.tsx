@@ -1,7 +1,7 @@
-import BlosgPage from "@/components/pages/BlogPage";
+import BlogsPage from "@/components/pages/BlogPage";
 
 const Blogs = () => {
-  return <BlosgPage />;
+  return <BlogsPage />;
 };
 
 export default Blogs;

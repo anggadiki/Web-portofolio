@@ -66,6 +66,9 @@ const ContactContent = () => {
             </button>
           </div>
         </form>
+        <div className=" px-2">
+          <hr className=" w-full" />
+        </div>
         <Footer />
       </div>
     </div>

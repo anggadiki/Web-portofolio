@@ -4,7 +4,6 @@ const Footer = () => {
   return (
     <div className=" w-full px-3">
       <div className=" flex flex-col items-center">
-        <hr className=" w-full" />
         <div className=" flex pt-6 gap-8">
           <div className=" w-8 h-8 bg-[#98FAEC] rounded-full flex justify-center items-center p-2">
             <svg

@@ -5,7 +5,7 @@ const Nav = () => {
       <div className=" flex justify-between py-6 px-6">
         <div className=" flex gap-2">
           <p className=" text-[#12F7D6]">{title}</p>
-          <p>SinanTokmak</p>
+          <p>AnggaDikiSaputra</p>
         </div>
         <div className=" flex gap-4 items-center">
           <p className=" text-[#12F7D6]">Home</p>
