@@ -19,17 +19,21 @@ const ContactContent = () => {
           </div>
           <div className=" flex flex-wrap justify-between font-ubuntu px-6 pt-16 text-[#12F7D6]">
             <div className=" flex w-[45%] flex-col gap-6">
-              <label htmlFor="">Your name *</label>
+              <label htmlFor="name">Your name *</label>
               <input
                 type="text"
+                id="name"
+                name="name"
                 placeholder="Enter your name"
                 className=" bg-transparent border-b-2 border-[#12F7D6] placeholder:text-white placeholder:font-light"
               />
             </div>{" "}
             <div className=" flex w-[45%] flex-col gap-6">
-              <label htmlFor="">Your email *</label>
+              <label htmlFor="email">Your email *</label>
               <input
                 type="text"
+                id="email"
+                name="email"
                 placeholder="Enter your email"
                 className=" bg-transparent border-b-2 border-[#12F7D6] placeholder:text-white placeholder:font-light"
               />
@@ -37,8 +41,10 @@ const ContactContent = () => {
           </div>
           <div className=" pt-16 px-6 font-ubuntu">
             <div className=" flex flex-col gap-6 text-[#12F7D6]">
-              <label htmlFor="">Your message *</label>
+              <label htmlFor="message">Your message *</label>
               <input
+                id="message"
+                name="message"
                 type="text"
                 placeholder="Enter your needs"
                 className=" bg-transparent border-b-2 border-[#12F7D6] placeholder:text-white placeholder:font-light"
