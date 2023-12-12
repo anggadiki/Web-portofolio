@@ -13,7 +13,7 @@ const Nav = () => {
     <div className=" w-full flex flex-col bg-[#292F36] text-white font-ibm">
       <div className=" flex justify-between py-6 px-6">
         <div className=" flex gap-2">
-          <p className="">{title}</p>
+          <p className=" text-[#12F7D6]">{title}</p>
           <p>AnggaDiki</p>
         </div>
         <div className=" flex gap-4 items-center">
