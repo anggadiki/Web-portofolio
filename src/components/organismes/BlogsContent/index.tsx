@@ -1,4 +1,5 @@
 import BlogsDecsription from "@/components/molecules/BlogDesc";
+import Button from "@/components/molecules/Button";
 import Title from "@/components/molecules/Title";
 
 const BlogContent = () => {
@@ -16,9 +17,7 @@ const BlogContent = () => {
           <button className=" bg-[#12F7D6] rounded-[32px] px-8 py-3">
             <p>View More</p>
           </button>{" "}
-          <button className=" border-2 text-white border-[#12F7D6] rounded-[32px] px-8 py-3">
-            <p>Subscribe</p>
-          </button>
+          <Button />
         </div>
       </div>
     </div>

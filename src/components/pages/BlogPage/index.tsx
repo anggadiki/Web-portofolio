@@ -1,4 +1,5 @@
 import BlogsDecsription from "@/components/molecules/BlogDesc";
+import Button from "@/components/molecules/Button";
 import Footer from "@/components/molecules/Footer";
 import Nav from "@/components/molecules/Nav";
 import Title from "@/components/molecules/Title";
@@ -19,6 +20,9 @@ const BlogsPage = () => {
           <p className=" text-center font-ibm text-white px-4 pt-4">
             My thoughts on technology and business, welcome to subscribe
           </p>
+          <div className=" flex justify-center py-16">
+            <Button>Subscribe My Blogs</Button>
+          </div>
         </div>
         {blogs.map((blog) => (
           <div key={blog.id}>

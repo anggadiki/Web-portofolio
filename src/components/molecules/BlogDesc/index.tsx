@@ -3,7 +3,7 @@ import Image from "next/image";
 const readMore = "Read More >>";
 const BlogsDecsription = () => {
   return (
-    <div className=" flex items-center flex-col py-8 w-full px-6 bg-[#292F36]">
+    <div className=" flex items-center flex-col pb-8 w-full px-6 bg-[#292F36]">
       <div className=" pb-9 w-full">
         <hr className=" border-1 border-white" />
       </div>
