@@ -23,6 +23,9 @@ const BlogsPage = () => {
           <div className=" flex justify-center py-16">
             <Button>Subscribe My Blogs</Button>
           </div>
+          <div className=" px-6">
+            <hr className=" border-1 border-white" />
+          </div>
         </div>
         {blogs.map((blog) => (
           <div key={blog.id}>

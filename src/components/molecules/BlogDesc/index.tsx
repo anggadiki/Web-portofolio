@@ -1,11 +1,18 @@
+"use client";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 const readMore = "Read More >>";
 const BlogsDecsription = () => {
+  const pathname = usePathname();
   return (
     <div className=" flex items-center flex-col pb-8 w-full px-6 bg-[#292F36]">
       <div className=" pb-9 w-full">
-        <hr className=" border-1 border-white" />
+        {pathname === "/" ? (
+          <hr className=" border-1 border-white" />
+        ) : (
+          <hr className=" hidden" />
+        )}
       </div>
       <div className=" w-[130px] h-[130px]">
         <Image
