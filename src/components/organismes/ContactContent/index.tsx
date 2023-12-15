@@ -4,16 +4,16 @@ import Title from "@/components/molecules/Title";
 const ContactContent = () => {
   return (
     <div className=" w-full flex justify-center px-2">
-      <div className="w-full py-16">
-        <div className="">
+      <div className="w-full py-16 md:px-16">
+        <div className=" md:px-20">
           <Title>Contact</Title>
-          <div className=" flex text-center pt-2 text-white font-ibm px-5">
+          <div className=" flex text-center md:justify-center pt-2 text-white font-ibm px-5">
             <p>I’m currently available for freelance work</p>
           </div>
         </div>
         <form action="POST" className=" px-3 py-16">
-          <div className=" w-full border-2 border-[#12F7D6] py-4 rounded-tl-[32px] rounded-br-[32px]">
-            <div className=" flex justify-center font-ibm text-[#12F7D6] text-2xl">
+          <div className=" w-full md:w-[407px] border-2 border-[#12F7D6] py-4 md:py-5 md:mx-auto rounded-tl-[32px] rounded-br-[32px]">
+            <div className=" flex justify-center font-ibm text-[#12F7D6] text-2xl md:text-[32px]">
               <p>Send me a message</p>
             </div>
           </div>

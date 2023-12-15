@@ -18,7 +18,7 @@ const Highlight = () => {
             </div>
           </div>{" "}
           <div className=" flex gap-4 pt-12 text-white font-ibm">
-            <p className=" text-[#12F7D6] text-5xl font-medium">8</p>
+            <p className=" text-[#12F7D6] text-5xl font-medium">2</p>
             <div className=" text">
               <p>Years of</p>
               <p>Experience</p>

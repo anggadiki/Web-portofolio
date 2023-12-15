@@ -58,7 +58,8 @@ const Footer = () => {
             </svg>
           </div>
         </div>
-        <div className=" pt-6 text-white font-ubuntu">
+        {/* for smartphone responsive */}
+        <div className=" md:hidden pt-6 text-white font-ubuntu">
           <p className=" font-light">© 2023 AnggaDiki. All rights reserved.</p>
           <div className=" flex justify-between pt-6 font-light px-2">
             <p>Privacy Policy</p>
@@ -73,7 +74,26 @@ const Footer = () => {
               JohannLeon
             </Link>
           </p>
+        </div>{" "}
+        {/* end for smartphone */}
+        {/* for tablet to dekstop */}
+        <div className=" hidden md:flex justify-center gap-16 items-center pt-6 text-white font-ubuntu">
+          <p className=" font-light">© 2023 AnggaDiki. All rights reserved.</p>
+          <div className=" flex gap-8 font-light">
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+          </div>
         </div>
+        <p className=" hidden md:block text-white text-center pt-6 font-light">
+          Design By{" "}
+          <Link
+            href="https://www.instagram.com/johannleon2025"
+            className=" text-[#12F7D6]"
+          >
+            JohannLeon
+          </Link>
+        </p>
+        {/* end responsive tablet to dekstop */}
       </div>
     </div>
   );

@@ -4,15 +4,15 @@ import Image from "next/image";
 const WorksContent = () => {
   return (
     <div className=" w-full">
-      <div className=" py-16">
-        <div className="">
+      <div className=" py-16 md:px-16">
+        <div className=" md:px-20">
           <Title>Works</Title>
-          <p className=" text-center text-white font-ibm px-6 py-2">
-            I had the pleasure of working with these awesome projects
-          </p>
         </div>
+        <p className=" text-center text-white font-ibm px-6 py-2">
+          I had the pleasure of working with these awesome projects
+        </p>
         <div className=" flex justify-center pt-14">
-          <div className="  w-[297px] h-[198pxpx] relative">
+          <div className="  w-[297px] md:w-[480.75px] md:h-[320px] h-[198px] relative">
             <Image
               src="/works.png"
               alt="works"
@@ -20,16 +20,16 @@ const WorksContent = () => {
               height={852}
               className=" w-full h-full"
             />
-            <div className="absolute w-[100px] h-[132px] top-6 left-6">
+            <div className="absolute w-[100px] md:w-[160.04px] md:h-[209.93px] h-[132px] top-6 md:top-10 md:left-10 left-6">
               <Image
                 src="/programing.png"
                 alt="works"
-                width={580}
-                height={552}
+                width={1080}
+                height={852}
                 className=" w-auto h-full"
               />
             </div>
-            <div className="absolute w-[136.13px] h-[80px] top-[59px] right-[22px]">
+            <div className="absolute w-[136.13px] md:w-[232px] md:h-[129.67px] h-[80px] md:top-[97.77px] md:right-[31px] top-[59px] right-[22px]">
               <Image
                 src="/website.png"
                 alt="works"
@@ -38,7 +38,7 @@ const WorksContent = () => {
                 className=" w-auto h-full"
               />
             </div>
-            <div className=" absolute w-9 h-9 rounded-full bg-[#292F36] top-20 -left-8">
+            <div className=" absolute w-9 h-9 md:w-[72px] md:h-[72px] rounded-full bg-[#292F36] top-20 -left-8 md:-left-20 md:translate-y-[50%]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -54,7 +54,7 @@ const WorksContent = () => {
                 <polyline points="15 18 9 12 15 6"></polyline>
               </svg>
             </div>{" "}
-            <div className=" absolute w-9 h-9 rounded-full bg-[#292F36] top-20 -right-8 rotate-180">
+            <div className=" absolute w-9 h-9 md:w-[72px] md:h-[72px] rounded-full bg-[#292F36] top-20 -right-8 md:translate-y-[50%] md:-right-20 rotate-180">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -70,8 +70,8 @@ const WorksContent = () => {
                 <polyline points="15 18 9 12 15 6"></polyline>
               </svg>
             </div>
-            <div className=" flex gap-2 items-center absolute font-ibm top-4 right-4 text-[#12F7D6]">
-              <div className="">
+            <div className=" flex gap-2 items-center absolute font-ibm top-4 md:top-9 right-4 text-[#12F7D6]">
+              <div className=" md:text-2xl">
                 <p>view Website</p>
                 <hr className=" w-full border-2 border-white" />
               </div>
