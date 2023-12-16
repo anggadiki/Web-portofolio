@@ -1,6 +1,6 @@
 const ArtikelParagraf = () => {
   return (
-    <div className=" w-[320px] py-8">
+    <div className=" w-[320px] md:w-full py-8">
       <div className=" font-ubuntu">
         <span className="text-white text-base font-light leading-loose">
           Web development, also known as website development, encompasses a

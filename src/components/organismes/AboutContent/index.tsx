@@ -16,7 +16,7 @@ const AboutContent = () => {
                 </span>
               </p>
               <p className="">
-                My name is Sinan and I specialize in web developement that
+                My name is Angga and I specialize in web developement that
                 utilizes <span className=" text-[#12F7D6]">HTML</span>, {""}
                 <span className=" text-[#12F7D6]">CSS</span>,{" "}
                 <span className=" text-[#12F7D6]">JS</span>, and{" "}
@@ -29,7 +29,7 @@ const AboutContent = () => {
               </p>
               <p className=" pt-4">
                 When I am not coding, I am writing{" "}
-                <span className=" text-[#12F7D6]">bolgs</span> , reading, or
+                <span className=" text-[#12F7D6]">blogs</span> , reading, or
                 picking up some new hands-on art project like{" "}
                 <span className=" text-[#12F7D6]">photography</span>.
               </p>

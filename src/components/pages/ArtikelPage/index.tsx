@@ -9,7 +9,7 @@ const ArtikelPage = () => {
       <Nav />
       <Artikel />
       <More />
-      <div className=" bg-[#1A1E23]">
+      <div className=" bg-[#1A1E23] md:py-8">
         <Footer />
       </div>
     </div>

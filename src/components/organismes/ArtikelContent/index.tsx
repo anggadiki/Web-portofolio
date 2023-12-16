@@ -5,15 +5,15 @@ import Image from "next/image";
 
 const ArtikelContent = () => {
   return (
-    <div className=" w-full py-16 px-5">
+    <div className=" w-full py-16 px-5 md:px-16">
       <div className=" flex justify-center">
         <div className=" font-ubuntu">
-          <p className=" text-[#12F7D6] text-[32px] px-5">
+          <p className=" text-[#12F7D6] text-[32px] px-5 md:px-0">
             What does it take to become a web developer?
           </p>
           <Remark />
-          <div className=" w-full flex flex-col items-center">
-            <div className=" w-[320px] h-[295px] bg-red-50">
+          <div className=" w-full flex flex-col items-center md:items-start">
+            <div className=" w-[320px] h-[295px] md:w-full md:h-auto bg-red-50">
               <Image
                 src="/blog.jpeg"
                 alt="blog"
