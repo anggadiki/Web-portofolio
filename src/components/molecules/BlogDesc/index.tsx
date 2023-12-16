@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const readMore = "Read More >>";
@@ -37,19 +38,23 @@ const BlogsDecsription = () => {
             internet…
           </p>
           <div className=" pb-6">
-            <p>{readMore}</p>
+            <Link href="/blogs/artikel">
+              <p>{readMore}</p>
+            </Link>
             <hr className=" border-white w-3/12" />
           </div>
-          <div className=" rounded-2xl bg-[#43454D] w-[132px] text-white py-1 flex justify-center items-center ">
-            <p className=" font-light">Web Developer</p>
-          </div>
-          <div className=" flex flex-wrap text-white gap-2 text-sm pt-4">
-            <p className=" font-medium">Text</p>
-            <p className=" font-light">Angga</p>
-            <p className=" font-medium">Date</p>
-            <p className=" font-light">10.Oct 2023</p>
-            <p className=" font-medium">Read</p>
-            <p className=" font-light">2 Min</p>
+          <div className=" flex items-end flex-wrap gap-2">
+            <div className=" rounded-2xl bg-[#43454D] w-[132px] text-white flex justify-center items-center ">
+              <p className=" font-light">Web Developer</p>
+            </div>
+            <div className=" flex text-white gap-2 text-sm pt-4">
+              <p className=" font-medium">Text</p>
+              <p className=" font-light">Angga</p>
+              <p className=" font-medium">Date</p>
+              <p className=" font-light">10.Oct 2023</p>
+              <p className=" font-medium">Read</p>
+              <p className=" font-light">2 Min</p>
+            </div>
           </div>
         </div>
       </div>
@@ -75,7 +80,9 @@ const BlogsDecsription = () => {
           internet…
         </p>
         <div className=" pb-6">
-          <p>{readMore}</p>
+          <Link href="/blogs/artikel">
+            <p>{readMore}</p>
+          </Link>
           <hr className=" border-white w-3/12" />
         </div>
         <div className=" rounded-2xl bg-[#43454D] w-[132px] text-white py-1 flex justify-center items-center ">
