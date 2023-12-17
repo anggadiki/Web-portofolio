@@ -11,12 +11,12 @@ const Nav = () => {
 
   return (
     <div className=" w-full flex flex-col bg-[#292F36] text-white font-ibm">
-      <div className=" flex justify-between py-6 px-6 md:px-8">
-        <div className=" flex gap-2 md:text-2xl">
+      <div className=" flex justify-between py-6 px-6 md:px-8 xl:px-32">
+        <div className=" flex gap-2 md:text-2xl xl:text-[32px]">
           <p className=" text-[#12F7D6]">{title}</p>
           <p>AnggaDiki</p>
         </div>
-        <div className=" flex gap-4 md:gap-8 items-center">
+        <div className=" flex gap-4 md:gap-8 items-center xl:text-2xl">
           <Link href="/">
             <p
               className={`${
@@ -35,7 +35,11 @@ const Nav = () => {
               Blogs
             </p>
           </Link>
-          <div className="">
+          <div className=" xl:relative xl:pl-10">
+            <input
+              type="text"
+              className=" hidden xl:flex w-52 bg-white rounded-3xl text-black"
+            />
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -46,7 +50,7 @@ const Nav = () => {
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="feather feather-search w-auto h-auto md:pl-10"
+              className="feather feather-search w-auto h-auto md:pl-10 xl:absolute xl:top-1 xl:stroke-black xl:right-4"
             >
               <circle cx="11" cy="11" r="8"></circle>
               <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
@@ -102,7 +106,7 @@ const Nav = () => {
           </svg>
         </div>
       </div>
-      <div className=" px-6 md:px-8">
+      <div className=" px-6 md:px-8 xl:px-32">
         <hr className="border-[#43454D] border-2 py-0" />
       </div>
     </div>

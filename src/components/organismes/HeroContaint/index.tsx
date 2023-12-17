@@ -16,7 +16,7 @@ const HeroContaint = () => {
               />
             </div>
             <div className=" flex flex-col items-center pt-4 font-ibm text-white">
-              <p className=" text-2xl font-medium">Angga</p>
+              <p className=" text-[32px] font-medium">Angga</p>
               <p>Full-stack Developer</p>
             </div>
             <div className=" w-full flex-col pt-8">
