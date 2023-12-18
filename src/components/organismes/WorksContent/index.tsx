@@ -1,11 +1,15 @@
+import MouseIcon from "@/components/molecules/MouseIcon";
 import Title from "@/components/molecules/Title";
 import Image from "next/image";
 
 const WorksContent = () => {
   return (
-    <div className=" w-full">
-      <div className=" py-16 md:px-16">
-        <div className=" md:px-20">
+    <div className=" w-full xl:py-32">
+      <div className=" hidden xl:block">
+        <MouseIcon />
+      </div>
+      <div className=" py-16 md:px-16 xl:px-32">
+        <div className=" md:px-20 xl:px-60">
           <Title>Works</Title>
         </div>
         <p className=" text-center text-white font-ibm px-6 py-2">
@@ -26,10 +30,10 @@ const WorksContent = () => {
                 alt="works"
                 width={1080}
                 height={852}
-                className=" w-auto h-full"
+                className=" w-auto h-full object-cover"
               />
             </div>
-            <div className="absolute w-[136.13px] md:w-[232px] md:h-[129.67px] h-[80px] md:top-[97.77px] md:right-[31px] top-[59px] right-[22px]">
+            <div className="absolute w-[136.13px] md:w-[232px] md:h-[129.67px] h-[80px] md:top-[94.77px] md:right-[31px] top-[59px] right-[22px]">
               <Image
                 src="/website.png"
                 alt="works"

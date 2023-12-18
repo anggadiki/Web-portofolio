@@ -8,7 +8,7 @@ const BlogsDecsription = () => {
   const pathname = usePathname();
   return (
     <div className=" flex items-center flex-col pb-8 w-full px-6 bg-[#292F36]">
-      <div className=" pb-9 w-full">
+      <div className=" pb-9 xl:pb-16 w-full">
         {pathname === "/" ? (
           <hr className=" border-1 border-white" />
         ) : (
@@ -17,13 +17,13 @@ const BlogsDecsription = () => {
       </div>
       {/* for tablet to dekstop */}
       <div className=" hidden md:flex md:gap-8">
-        <div className=" w-[330px] h-[130px]">
+        <div className=" w-[330px] h-[130px] xl:h-[170px]">
           <Image
             src="/blog.jpeg"
             alt="blog"
             width={4070}
             height={2752}
-            className=" w-full h-full bg-cover"
+            className=" w-full h-full object-cover"
           />
         </div>
         <div className=" px-5 font-ubuntu text-[#12F7D6]">
@@ -41,7 +41,7 @@ const BlogsDecsription = () => {
             <Link href="/blogs/artikel">
               <p>{readMore}</p>
             </Link>
-            <hr className=" border-white w-3/12" />
+            <hr className=" border-white w-3/12 md:w-2/12 xl:w-[11%]" />
           </div>
           <div className=" flex items-end flex-wrap gap-2">
             <div className=" rounded-2xl bg-[#43454D] w-[132px] text-white flex justify-center items-center ">
@@ -97,7 +97,7 @@ const BlogsDecsription = () => {
           <p className=" font-light">2 Min</p>
         </div>
       </div>
-      <div className=" pt-9 w-full">
+      <div className=" pt-9 xl:pt-16 w-full">
         <hr className=" border-1 border-white" />
       </div>
     </div>

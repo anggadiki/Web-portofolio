@@ -1,17 +1,24 @@
+import MouseIcon from "@/components/molecules/MouseIcon";
 import Title from "@/components/molecules/Title";
 import Image from "next/image";
+
+const iconSkils = "</>";
 
 const SkillsContent = () => {
   return (
     <div className=" w-full absolute flex justify-center">
-      <div className=" py-16 md:px-16">
-        <div className=" md:px-20">
+      <div className=" hidden xl:block absolute font-ubuntu text-[168px] text-[#12F7D6] top-20 right-40">
+        {iconSkils}
+      </div>
+      <div className=" py-16 md:px-16 xl:p-32">
+        <MouseIcon />
+        <div className=" md:px-20 xl:px-60 xl:pt-16">
           <Title>Skills</Title>
           <div className=" font-ibm text-center px-7 pt-4 text-white">
             <p>I am striving to never stop learning and improving</p>
           </div>
         </div>
-        <div className=" hidden md:flex md:pt-16 md:justify-center md:gap-8">
+        <div className=" hidden md:flex md:pt-16 md:justify-center md:gap-8 xl:gap-32">
           <div className=" flex justify-center">
             <div className="skills flex flex-col py-4 items-center bg-[#98FAEC] px-8 rounded-lg">
               <div className="">
@@ -115,7 +122,7 @@ const SkillsContent = () => {
             </div>
           </div>
         </div>
-        <div className=" flex flex-wrap gap-10 md:gap-24 justify-center md:px-20 pt-16">
+        <div className=" flex flex-wrap xl:flex-nowrap gap-10 md:gap-24 justify-center md:px-20 pt-16 xl:pt-24">
           <div className=" py-7">
             <div className=" p-5 md:p-10 rounded-full bg-[#E54F26] relative">
               <Image
