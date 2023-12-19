@@ -15,8 +15,8 @@ const BlogsPage = () => {
     <>
       <div className=" w-full bg-[#292F36]">
         <Nav />
-        <div className=" bg-[#292F36] pt-16 md:px-16">
-          <div className=" md:px-20">
+        <div className=" bg-[#292F36] pt-16 md:px-16 xl:pt-32 xl:px-32">
+          <div className=" md:px-20 xl:px-60">
             <Title>Blogs</Title>
           </div>
           <p className=" text-center font-ibm text-white px-4 pt-4">
@@ -30,10 +30,11 @@ const BlogsPage = () => {
           </div>
         </div>
         {blogs.map((blog) => (
-          <div key={blog.id} className=" md:px-16">
+          <div key={blog.id} className=" md:px-16 xl:px-32">
             <BlogsDecsription />
           </div>
         ))}
+        <div className=" pb-16 xl:pb-32"></div>
         <div className=" bg-[#1A1E23] pb-8">
           <Footer />
         </div>
