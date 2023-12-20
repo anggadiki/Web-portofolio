@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const ArtikelContent = () => {
   return (
-    <div className=" w-full py-16 px-5 md:px-16">
+    <div className=" w-full py-16 px-5 md:px-16 xl:p-32">
       <div className=" flex justify-center">
-        <div className=" font-ubuntu">
+        <div className=" font-ubuntu xl:px-40">
           <p className=" text-[#12F7D6] text-[32px] px-5 md:px-0">
             What does it take to become a web developer?
           </p>
