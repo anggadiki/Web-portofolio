@@ -1,4 +1,5 @@
 import MouseIcon from "@/components/molecules/MouseIcon";
+import Image from "next/image";
 
 const AboutContent = () => {
   return (
@@ -45,11 +46,15 @@ const AboutContent = () => {
             </div>
           </div>
         </div>
-        <div
-          className="mt-16 xl:mt-32 w-[272px] h-[364px] md:w-[462px] md:h-[556px] bg-cover rounded-2xl md:mx-auto"
-          style={{ backgroundImage: 'url("/bg.jpeg")' }}
-        ></div>
-        M
+        <div className="mt-16 xl:mt-32 w-[272px] h-[364px] md:w-[462px] md:h-[556px] md:mx-auto">
+          <Image
+            src="/bg.jpeg"
+            alt="bg"
+            width={3262}
+            height={4156}
+            className=" object-cover w-full h-full rounded-2xl"
+          />
+        </div>
       </div>
     </div>
   );
